@@ -117,7 +117,7 @@ module "traefik" {
   kubernetes_cluster_name      = module.aws-kubernetes-cluster.eks_cluster_name
   kubernetes_cluster_cert_data = module.aws-kubernetes-cluster.eks_cluster_certificate_data
   kubernetes_cluster_endpoint  = module.aws-kubernetes-cluster.eks_cluster_endpoint
-  aws_https_arn                = "arn:aws:acm:ap-northeast-2:007370231163:certificate/637db598-6f4d-46fa-afef-326a29ead008"
+  aws_https_arn                = "arn:aws:acm:ap-northeast-2:654728685918:certificate/2c853171-d7b8-4c0b-9850-b2e6e3ba6213"
 
   eks_nodegroup_id = module.aws-kubernetes-cluster.eks_cluster_nodegroup_id
 }
